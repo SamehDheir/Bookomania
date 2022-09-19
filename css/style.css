@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+
+.navbar .links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.navbar h1 {
+  font-size: 30px;
+}
+
+.navbar .links li a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.navbar .links li a:hover {
+  border-bottom: 1px solid black;
+}
+
+.home .bg_image {
+  background-image: url(../2000_5cdab39735346.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .bg_image .data_bg_image {
+  text-align: center;
+  color: white;
+}
+
+.home .bg_image .data_bg_image h2 {
+  font-size: 80px;
+}
+
+.home .bg_image .data_bg_image p {
+  font-size: 50px;
+}
+
+.home .bg_image .data_bg_image button {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+}
+.home .bg_image .data_bg_image button:hover {
+  background-color: #252525;
+  border: 0;
+}
+.store {
+  margin-top: 70px;
+}
+.store p {
+  text-align: center;
+  font-size: 35px;
+}
+
+.store hr {
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 645px;
+}
+
+.store .books {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.store .books .book1 img {
+  width: 100%;
+  height: 300px;
+  border-radius: 7px;
+}
+
+.store .books .book1 .desc {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.store .book4 {
+  margin-left: 38%;
+}
+
+.store .book4 img {
+  width: 53%;
+  height: 300px;
+  border-radius: 7px;
+}
+
+.store .book4 .desc {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 51%;
+}
+
+.aboutTheStore {
+  margin-top: 200px;
+  background-color: #fafafa;
+  padding: 100px 0;
+  text-align: center;
+  color: #252525;
+}
+
+.aboutTheStore h2 {
+  font-size: 35px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.aboutTheStore hr {
+  width: 63px;
+  text-align: center;
+  margin-left: 48%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 2px;
+  background-color: #6a4b3e;
+}
+
+.aboutTheStore .desc1 {
+  padding: 10px 137px;
+  font-size: 19px;
+}
+
+.aboutTheStore .desc2 {
+  padding: 30px 137px;
+  font-size: 19px;
+}
+
+.aboutTheStore img {
+  width: 17%;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.contact {
+  margin: 100px 0;
+}
+
+.contact h2 {
+  font-size: 35px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.contact hr {
+  width: 63px;
+  text-align: center;
+  margin-left: 48%;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  padding-top: 2px;
+  background-color: #6a4b3e;
+}
+
+.contact .detail_contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact .detail_contact .data_contact {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact .detail_contact .data_contact p {
+  margin-bottom: 10px;
+}
+
+.contact .detail_contact .data_contact a {
+  text-decoration: none;
+  color: #6a4b3e;
+}
+
+.contact .detail_contact .data_contact a:hover {
+  border-bottom: 1px solid #6a4b3e;
+}
+
+.contact .detail_contact .form_contact input {
+  padding: 5px 20px;
+  font-size: 17px;
+}
+
+.contact .detail_contact .form_contact .email_input {
+  width: 92%;
+}
+
+.contact .detail_contact .form_contact textarea {
+  width: 96%;
+  font-size: 17px;
+  padding: 10px 0 0 20px;
+}
+
+.contact .detail_contact .form_contact button {
+  background-color: #6a4b3e;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  padding: 10px;
+}
+footer {
+  margin: 60px 0;
+}
+footer .links_footer {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: 40%;
+}
+
+footer .links_footer li a {
+  text-decoration: none;
+  color: black;
+}
+footer .links_footer li a:hover {
+  color: #6a4b3e;
+}
+
+footer .form_footer {
+  margin-left: 38%;
+  margin-top: 20px;
+}
+
+footer .form_footer input {
+  font-size: 16px;
+  padding: 10px;
+}
+
+footer .form_footer button {
+  background-color: #6a4b3e;
+  color: white;
+  font-size: 17px;
+  border: 0;
+  padding: 11px;
+  position: absolute;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
